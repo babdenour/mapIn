@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 </script>
 
@@ -6,7 +6,7 @@
     <img src="../../static/kobe-bryant-wallpaper-hd-2017.jpg" alt="publicite">
 </div>
 
-<style>
+<style lang="scss">
   .encard {
     width: 100%;
     height: 10rem;
