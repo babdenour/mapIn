@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	import EncardPub from '$lib/components/EncardPub.svelte';
+	import Header from '$lib/Header.svelte';
 	import '../app.scss';
 </script>
 
@@ -7,7 +8,11 @@
 	<EncardPub/>
 </div>
 
-<main>
+<div class="header">
+	<Header/>
+</div>
+
+<main class="main">
 	<slot />
 </main>
 
@@ -17,25 +22,25 @@
 
 
 <style lang="scss">
-	main {
+.main {
 	width: 100%;
 	height: 100%	;
 	text-align: center;
-	padding: 1em;
-	margin: 0 auto;
-}
+	padding: 0;
+	margin: 0;
+};
 .encard {
-	margin: 0 auto;
+	margin: auto;
 	display: block;
 	position: relative;
 };
 
 .encard-top {
 	top: 0;
-}
+};
 
 .encard-bottom {
 	bottom: 0;
-}
+};
 
 </style>
