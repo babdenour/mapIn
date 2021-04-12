@@ -16,7 +16,7 @@
 		text-decoration: none;
 		background-color: #cee1f2;
 		color: #911c22;
-		border-radius: 0.7em;
+		border-radius: 0.5em;
 		border-color: #cd323c;
 		padding: 0.7rem;
 	

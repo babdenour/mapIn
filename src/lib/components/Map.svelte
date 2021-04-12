@@ -14,6 +14,5 @@ import Nav from "./Nav.svelte";
 .map {
     width: 100%;
     height: 100%;
-    border: 2px solid blue;
 }
 </style>
