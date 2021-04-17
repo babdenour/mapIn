@@ -7,10 +7,6 @@
 	<EncardPub />
 </div>
 
-<div class="header">
-	<Header />
-</div>
-
 <main class="main">
 	<slot />
 </main>
@@ -23,11 +19,11 @@
 	@import '../style/app.scss';
 
 	.main {
-		width: 100%;
-		height: 100%;
+		min-height: 57vh;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
 		text-align: center;
-		padding: 0;
-		margin: 0;
 	}
 	.encard {
 		margin: auto;
