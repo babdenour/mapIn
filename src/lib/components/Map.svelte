@@ -1,18 +1,18 @@
 <script lang="ts">
-import Nav from "./Nav.svelte";
-
-
 </script>
 
 <div class="map">
-    <Nav/>
-    <p>Map to be displayed</p>
+	<p>Carte</p>
 </div>
 
+<style lang="scss" scoped>
+	@import '../../style/app.scss';
 
-<style lang="scss">
-.map {
-    width: 100%;
-    height: 100%;
-}
+	.map {
+		width: 90vw;
+		padding: 0.3rem;
+		p {
+			color: $red-primary;
+		}
+	}
 </style>

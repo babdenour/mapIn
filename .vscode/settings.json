@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/fef59b1a-6708-4790-b5aa-83dfeeab4fab/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mapIn",
+    "appService.deploySubpath": "."
+}

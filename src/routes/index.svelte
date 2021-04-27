@@ -1,42 +1,55 @@
 <script lang="ts">
 </script>
 
-<h1>
-	<a href="/map"  >
-		me diriger
-	</a>
-</h1>
-
+<div class="me-diriger">
+	<div class="me-diriger__logo">
+		<img src="../../static/mapIn-logo-1.png" alt="logo" />
+	</div>
+	<div class="me-diriger__title">
+		<h1>
+			<a href="/map"> me diriger </a>
+		</h1>
+	</div>
+</div>
 
 <style lang="scss">
-	h1 {
-		color: #911c22;
-	};
-	a {
-		text-decoration: none;
-		background-color: #cee1f2;
-		color: #911c22;
-		border-radius: 0.5em;
-		border-color: #cd323c;
-		padding: 0.7rem;
-	
-	};
-	a:hover {
-		border: 3px solid #911c22;
-		background-color:#cd323c;
-		color: #cee1f2;  
-	};
-	
-	a:active {
-		background-color:#cee1f2;
-		color: #911c22;
-	};
+	@import '../style/app.scss';
+	.me-diriger {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 100vw;
+		height: 57vh;
 
+		&__logo {
+			img {
+				width: 42vw;
+				height: 32vh;
+			}
+		}
 
-	@media (min-width: 480px) {
 		h1 {
-			max-width: none;
-		};
+			color: $red-primary;
 
-	};
+			a {
+				text-decoration: none;
+				background-color: $blue-background;
+				color: $red-primary;
+				border-radius: 0.5em;
+				border: 3px solid $red-secondary;
+
+				padding: 0.7rem;
+			}
+			a:hover {
+				border: 3px solid $red-primary;
+				background-color: $red-secondary;
+				color: $blue-background;
+			}
+
+			a:active {
+				background-color: $blue-background;
+				color: $red-primary;
+			}
+		}
+	}
 </style>
