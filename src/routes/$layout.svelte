@@ -24,6 +24,7 @@
 		align-items: flex-start;
 		justify-content: center;
 		text-align: center;
+		margin: 1rem;
 	}
 	.encard {
 		margin: auto;

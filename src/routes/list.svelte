@@ -1,7 +1,6 @@
 <script>
 	import ListC from '$lib/components/List.svelte';
 	import Nav from '$lib/components/Nav.svelte';
-	import { List } from '../utils/list';
 </script>
 
 <div class="list">
@@ -9,7 +8,7 @@
 		<Nav />
 	</div>
 	<div class="list__list">
-		<ListC list={List} />
+		<ListC />
 	</div>
 </div>
 
@@ -19,9 +18,13 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: flex-start;
 
 		&__nav {
-			height: 10vh;
+			width: 97vw;
+			margin: 0.3rem;
 		}
 
 		&__list {

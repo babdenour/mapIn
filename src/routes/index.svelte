@@ -12,7 +12,7 @@
 	</div>
 </div>
 
-<style lang="scss" scoped>
+<style lang="scss">
 	@import '../style/app.scss';
 	.me-diriger {
 		display: flex;
@@ -28,16 +28,16 @@
 			}
 		}
 
-		&__logo {
-			h1 {
-				color: $red-primary;
-			}
+		h1 {
+			color: $red-primary;
+
 			a {
 				text-decoration: none;
 				background-color: $blue-background;
 				color: $red-primary;
 				border-radius: 0.5em;
-				border-color: $red-secondary;
+				border: 3px solid $red-secondary;
+
 				padding: 0.7rem;
 			}
 			a:hover {

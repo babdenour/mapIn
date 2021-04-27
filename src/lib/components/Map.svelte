@@ -1,9 +1,7 @@
 <script lang="ts">
-	import Nav from './Nav.svelte';
 </script>
 
 <div class="map">
-	<Nav />
 	<p>Carte</p>
 </div>
 
@@ -11,11 +9,8 @@
 	@import '../../style/app.scss';
 
 	.map {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-
+		width: 90vw;
+		padding: 0.3rem;
 		p {
 			color: $red-primary;
 		}
