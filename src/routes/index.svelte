@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ModalAuth from '$lib/components/ModalAuth.svelte';
 </script>
 
 <div class="me-diriger">
@@ -9,6 +10,8 @@
 		<h1>
 			<a href="/map"> me diriger </a>
 		</h1>
+		<!-- MOdal d'info user -->
+		<!-- <ModalAuth /> -->
 	</div>
 </div>
 
