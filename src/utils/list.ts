@@ -74,7 +74,7 @@ export const listTotal: Object[] = [
 			{ lettre: 'S', brand: ['Salsa', 'Sergent Major', 'Stradivarius'] },
 			{ lettre: 'T', brand: ["Tape à l'œil", 'Territoire Redskins'] },
 			{ lettre: 'U', brand: ['Undiz'] },
-			{ letttre: 'X'['X-CLUSIF'] },
+			{ letttre: 'X', brand: ['X-CLUSIF'] },
 			{ lettre: 'Z', brand: ['ZARA', 'ZELYS'] },
 		],
 	},
